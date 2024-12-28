@@ -5,6 +5,8 @@ describe("App component", () => {
   test("it renders", () => {
     render(<App />);
 
-    expect(screen.getByText("Hello React!")).toBeInTheDocument();
+    expect(
+      screen.getByText("React Bootstrap Starter Template")
+    ).toBeInTheDocument();
   });
 });
